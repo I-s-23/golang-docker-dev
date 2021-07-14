@@ -1,0 +1,61 @@
+{
+	"name": "Golang Env",
+	"dockerComposeFile": [
+		"../docker-compose.yml",
+		"docker-compose.yml"
+	],
+	"service": "web",
+	"workspaceFolder": "/workspace",
+	"settings": {
+		"autoDocstring.docstringFormat": "google",
+    "editor.formatOnSave": true,
+    "editor.renderControlCharacters": true,
+    "editor.renderWhitespace": "all",
+    "files.autoGuessEncoding": true,
+    "go.useLanguageServer": true,
+    "go.alternateTools": {
+      "go-langserver": "gopls"
+    },
+    "go.languageServerExperimentalFeatures": {
+      "format": true,
+      "autoComplete": true,
+      "rename": true,
+      "goToDefinition": true,
+      "hover": true,
+      "signatureHelp": true,
+      "goToTypeDefinition": true,
+      "goToImplementation": true,
+      "documentSymbols": true,
+      "workspaceSymbols": true,
+      "findReferences": true,
+      "diagnostics": true
+    },
+    "[go]": {
+      "editor.snippetSuggestions": "none",
+      "editor.formatOnSave": true,
+      "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+      },
+    },
+    "gopls": {
+      "usePlaceholders": false
+    },
+    "go.toolsEnvVars": {
+      "GO11MODULE": "on"
+    },
+    "terminal.integrated.shell.linux": "/bin/bash",
+	},
+	"extensions": [ 
+		"MS-CEINTL.vscode-language-pack-ja",
+    "golang.go",
+    "njpwerner.autodocstring",
+    "ms-azuretools.vscode-docker",
+    "donjayamanne.githistory",
+    "mhutchie.git-graph",
+    "redhat.vscode-yaml",
+    "pkief.material-icon-theme",
+	],
+	"mounts": [
+    "source=/var/run/docker.sock,target=/var/run/docker.sock,type=bind",
+  ],
+}

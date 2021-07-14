@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: dev
+    tty: true
+    stdin_open: true
+    ports:
+      - 8080:8080
