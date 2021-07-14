@@ -4,6 +4,8 @@ golang dev docker with VS Code extend remote-containers
 ## Version
 
 - Golang
+    - latest container
+        - 1.16
 - Docker
 
 ## Quick Start
@@ -15,20 +17,14 @@ golang dev docker with VS Code extend remote-containers
 
 ## Vscode-extend
 
-| extend                    | role                                                   | offical name                             |
-| ------------------------- | ------------------------------------------------------ | ---------------------------------------- |
-| golang                    |                                                        | "golang.go"                              |
-| GitLens                   | Make Git history easier to see in VS Code              | "eamodio.gitlens"                        |
-| Visual Studio IntelliCode | autocompletes coding with machine learning             | "visualstudioexptteam.vscodeintellicode" |
-| Path Intellisense         | Visual Studio Code plugin that autocompletes filenames | "christian-kohler.path-intellisense"     |
-|                           | Display errors easily                                  | "ms-azuretools.vscode-docker"            |
-| vscode-language-pack-ja   | used japanease in VS Code                              | "MS-CEINTL.vscode-language-pack-ja"      |
-
-		
-    
-    "njpwerner.autodocstring"
-    
-    "donjayamanne.githistory"
-    "mhutchie.git-graph"
-    "redhat.vscode-yaml"
-    "pkief.material-icon-theme"
+| extend                    | role                                       | offical name                             |
+| ------------------------- | ------------------------------------------ | ---------------------------------------- |
+| golang                    |                                            | "golang.go"                              |
+|                           |                                            | "mhutchie.git-graph"                     |
+|                           |                                            | "donjayamanne.githistory"                |
+|                           |                                            | "redhat.vscode-yaml"                     |
+|                           |                                            | "pkief.material-icon-theme"              |
+| Visual Studio IntelliCode | autocompletes coding with machine learning | "visualstudioexptteam.vscodeintellicode" |
+|                           |                                            | "njpwerner.autodocstring"                |
+|                           |                                            | "ms-azuretools.vscode-docker"            |
+| vscode-language-pack-ja   | used japanease in VS Code                  | "MS-CEINTL.vscode-language-pack-ja"      |
